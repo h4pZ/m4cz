@@ -1,0 +1,30 @@
+yabai -m config layout bsp
+
+# Set all padding and gaps to 30pt (default: 0)
+yabai -m config top_padding    40
+yabai -m config bottom_padding 40
+yabai -m config left_padding   40
+yabai -m config right_padding  40
+yabai -m config window_gap     40
+
+# on or off (default: off)
+yabai -m config auto_balance off
+
+# set focus follows mouse mode (default: off, options: off, autoraise, autofocus)
+yabai -m config focus_follows_mouse autofocus
+
+# set mouse follows focus mode (default: off)
+yabai -m config mouse_follows_focus on
+
+yabai -m config auto_balance false
+
+# Rules.
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^System Information$" manage=off
+yabai -m rule --add app="^ProtonVPN$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Transmission$" manage=off
+yabai -m rule --add app="^VLC$" manage=off
+yabai -m rule --add app="^Pixea$" manage=off
+yabai -m rule --add app="^zoom.us$" manage=off
+
