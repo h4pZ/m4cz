@@ -1,3 +1,4 @@
 {
-  "unknownCommand": {"Icon": "?", "Color": "green"}
+    "unknownCommand": {"Icon": "?", "Color": "green"},
+    "zsh": {"Icon": ""}
 }
