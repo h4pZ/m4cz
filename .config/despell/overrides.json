@@ -1,4 +1,5 @@
 {
-    "unknownCommand": {"Icon": "?", "Color": "green"},
-    "zsh": {"Icon": ""}
+    "unknownCommand": {"Icon": "行", "Color": "green"},
+    "zsh": {"Icon": ""},
+    "docker": {"Icon": ""}
 }
