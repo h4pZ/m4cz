@@ -20,6 +20,7 @@ yabai -m config auto_balance false
 
 # Rules.
 yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^System Information$" manage=off
 yabai -m rule --add app="^ProtonVPN$" manage=off
 yabai -m rule --add app="^Finder$" manage=off
