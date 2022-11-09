@@ -3,8 +3,8 @@
 echo "Creating $1 tmux session"
 
 tmux new -s $1 -d
-tmux rename-window -t $1:0 nvim
-tmux new-window -t $1 -n zsh
-tmux new-window -t $1 -n git
-tmux new-window -t $1 -n docker
+tmux rename-window -t $1 nvim
+tmux new-window -n zsh
+tmux new-window -n git
+tmux new-window -n docker
 tmux select-window -t nvim
