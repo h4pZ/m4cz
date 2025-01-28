@@ -6,7 +6,7 @@ font-thicken = true
 font-size = 14
 theme = rose-pine
 # background = 11111b
-background-opacity = 0.95
+background-opacity = 1.0
 background-blur-radius = 10
 link-url = true
 title = " "
@@ -15,5 +15,5 @@ window-padding-y = 20
 macos-titlebar-style = hidden
 copy-on-select = true
 
-custom-shader = ./ghostty-shaders/mnoise.glsl
-custom-shader-animation = always
+#custom-shader = ./mnoise.glsl
+#custom-shader-animation = always
