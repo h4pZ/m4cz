@@ -117,3 +117,4 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
           mix(col4, fcol, smoothstep(fw, -fw, d) * smoothstep(fw, -fw, d2)),
       ghosttyCol.a);
 }
+
